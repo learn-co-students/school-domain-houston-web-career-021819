@@ -27,11 +27,11 @@ class School
   end
 
   def sort
-    sorted_roster = {}
+    sorted_roster = {} #output,define an empty hash
     roster.each do |grade,student_name|
-      sorted_roster[grade]=student_name.sort
+      sorted_roster[grade]=student_name.sort #define the hash's values. new hash's key is grade
     end
-    sorted_roster
+    sorted_roster #return new hash
   end
 
 end
